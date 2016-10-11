@@ -1,7 +1,6 @@
 console.log('Loaded!');
 //change the etxt
-var element = document.getElementById('main-text');
-element.innerHTML='new stuff';
+
 
 var img= documnet.getElementById('madi');
 var m=0;
