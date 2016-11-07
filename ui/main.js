@@ -1,14 +1,17 @@
-console.log('Loaded!');
-//change the etxt
-
-
-var img= documnet.getElementById('madi');
-var m=0;
-function moveRight(){
-    m = m + 1;
-    img.style.m = m + 'px';
+//counter 
+var counter=0;
+var button= document.getElementById('counter');
+button.onclick=function ()
+{
+  //make a req
     
-}
-img.onclick = function () {
-    var interval=setInterval(moveRight,50);
+    
+    
+    //capture the response, store in var
+    
+    
+    // render the variable in the correct span
+    counter=counetr+1;
+    var span = documnet.getElementById('count');
+    span.innerHTML= counter.toString();
 };
